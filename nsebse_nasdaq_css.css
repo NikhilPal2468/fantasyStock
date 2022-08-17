@@ -1,0 +1,500 @@
+.main-div {
+  height: auto;
+  width: 100%;
+  /* background-color: pink; */
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 1200px) {
+  .main-div {
+    margin-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main-div {
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main-div {
+    margin-top: 50px;
+  }
+}
+
+.title {
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+  font-size: 80px;
+}
+
+.title p {
+  margin-left: 20%;
+}
+
+@media screen and (max-width: 1200px) {
+  .title {
+    /*text-align: center;*/
+    width: 100%;
+    font-size: 60px;
+    /*margin-left:5px;*/
+  }
+
+  .title p {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .title {
+    font-size: 50px;
+    width: 100%;
+  }
+}
+.game-type-selection {
+  margin-top: 20px;
+  margin-left: 19%;
+}
+
+.game-type-selection a {
+  cursor: default;
+}
+
+.game-type-selection button {
+  border: none;
+
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .game-type-selection {
+    margin-left: 8%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .game-type-selection {
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .game-type-selection button {
+    font-size: 15px;
+  }
+}
+
+.game-area-heading {
+  width: 100%;
+  margin-top: 25px;
+}
+.game-area-heading h1 {
+  margin-left: 20%;
+}
+
+.game-area {
+  position: inherit;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*background-color: #efefef;*/
+  /*background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);*/
+  background-color: #e056fd;
+  background-image: linear-gradient(315deg, #9b0ab9 0%, #391d75 95%);
+  width: 77%;
+  height: auto;
+  margin-left: 20%;
+  margin-top: 20px;
+  text-align: center;
+}
+@media screen and (max-width: 1200px) {
+  .game-area {
+    width: 97%;
+    margin-left: 10px;
+    margin-top: 10px;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .game-area-heading h1 {
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .game-area-heading {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+
+  .game-area {
+    width: 95%;
+    height: 260px;
+  }
+
+  #live-cards {
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  #cards {
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+  }
+}
+@media screen and (max-width: 300px) {
+  .game-area-heading {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+  .game-area-heading h1 {
+    font-size: 24px;
+  }
+}
+#live-cards {
+  display: block;
+}
+
+#cards {
+  display: block;
+}
+
+.card {
+  /* border: 2px solid black; */
+  background-color: white;
+  border-radius: 20px;
+  height: 310px;
+  width: 351px;
+  display: inline-block;
+  margin: 10px;
+}
+.enter {
+  color: white;
+  cursor: pointer;
+  padding: 10px 130px;
+  background: #007fad;
+  border-radius: 15px;
+  box-shadow: 4px 5px #efefef;
+}
+
+.enter:hover {
+  box-shadow: 0px 0px white;
+}
+
+.enter a {
+  text-decoration: none;
+  color: white;
+}
+
+#timer {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  top: 0px;
+  font-size: 25px;
+  position: absolute;
+  right: 0px;
+  padding: 20px;
+}
+
+.button-enter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-time {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.time {
+  margin-bottom: 11px;
+  border: 2px solid black;
+}
+
+.entrants-prizes {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 6px;
+  padding: 4px;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 16px 12px;
+}
+
+/* card css by soni */
+
+.card-background {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 310px;
+  width: 351px;
+}
+
+.card-heading {
+  font-size: 25px;
+  text-align: center;
+}
+
+.card-middle {
+  height: 140px;
+  width: 100%;
+}
+.card-middle-one {
+  height: 70px;
+  width: 25%;
+
+  float: left;
+  margin-top: 50px;
+}
+.card-middle-one-box {
+  height: 50px;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.card-middle-one-box-description {
+  border-radius: 6px;
+  background-color: darkgray;
+  width: 70%;
+  margin-left: 10px;
+
+  font-size: 20px;
+}
+.card-middle-two {
+  height: 90px;
+  width: 50%;
+  float: left;
+  /*margin-left: 10px;*/
+  margin-top: 30px;
+  border: 1px solid black;
+  text-align: center;
+}
+.card-middle-two-box {
+  height: 80px;
+  width: 100%;
+
+  margin-top: 1%;
+
+  text-align: center;
+}
+.card-middle-two-box-title {
+  font-size: 20px;
+}
+.card-middle-two-box-description {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.card-middle-three {
+  height: 50px;
+  width: 25%;
+  float: left;
+  margin-top: 50px;
+}
+
+.card-middle-three-box {
+  height: 50px;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.card-middle-three-box-description {
+  border-radius: 6px;
+  background-color: darkgray;
+  width: 70%;
+  margin-left: 10px;
+
+  font-size: 20px;
+}
+
+.card-footer {
+  height: 100px;
+  width: 100%;
+}
+
+.card-footer-title {
+  height: 50px;
+  width: 40%;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 20px;
+
+  margin-left: 95px;
+  margin-top: 10px;
+}
+
+.card-footer-description {
+  height: 50px;
+  width: 100%;
+  /*cursor: pointer;*/
+  background-image: url("assets/bgspacebutton.jpg");
+  background-repeat: no-repeat;
+  background-size: 95% 90%;
+  background-position: center;
+}
+.card-footer-description-text {
+  color: white;
+  font-size: 25px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .card {
+    height: 280px;
+    width: 300px;
+    margin: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .card {
+    height: 230px;
+    width: 250px;
+    margin: 12px 15px;
+  }
+
+  .card-background {
+    height: 230px;
+    width: 250px;
+  }
+
+  .card-heading {
+    font-size: 20px;
+  }
+
+  .card-middle {
+    height: 110px;
+  }
+  .card-middle-one {
+    margin-top: 30px;
+  }
+  .card-middle-one-box {
+    font-size: 17px;
+  }
+
+  .card-middle-one-box-description {
+    font-size: 16px;
+  }
+  .card-middle-two {
+    height: 80px;
+
+    /*margin-left: 5px;*/
+    margin-top: 18px;
+  }
+
+  .card-middle-two-box-title {
+    font-size: 18px;
+  }
+  .card-middle-two-box-description {
+    font-size: 25px;
+  }
+
+  .card-middle-three {
+    margin-top: 30px;
+  }
+
+  .card-middle-three-box {
+    font-size: 17px;
+  }
+
+  .card-middle-three-box-description {
+    font-size: 16px;
+  }
+
+  .card-footer {
+    height: 70px;
+  }
+
+  .card-footer-title {
+    height: 40px;
+
+    font-size: 18px;
+    margin-left: 70px;
+    margin-top: 0px;
+  }
+
+  .card-footer-description {
+    height: 40px;
+    background-size: 90% 90%;
+  }
+  .card-footer-description-text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .card {
+    height: 220px;
+    width: 230px;
+  }
+}
+.btnSelection {
+  min-width: 150px;
+  padding: 15px 10px;
+  margin: 20px;
+  border: 1px solid;
+  color: rgb(180 0 255);
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.7),
+    7px 7px 20px 0 rgba(0, 0, 0, 0.2);
+}
+#btnActive {
+  background-color: #7f53ac;
+  background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .btnSelection {
+    min-width: 100px;
+    margin: 10px;
+    margin-bottom: -3%;
+  }
+}
+
+#btn:hover {
+  box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 0.7),
+    inset 7px 7px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+._13lGWV5zrZ {
+  cursor: pointer;
+}
+@media screen and (max-width: 1020px) {
+  body a {
+    cursor: default;
+  }.g
+}
+._13lGWV5zrZ {
+  cursor: default;
+}
+.card-footer-description {
+  cursor: default;
+}
+.enter {
+  cursor: default;
+}
+.card-footer-description-text a {
+  cursor: default;
+}
